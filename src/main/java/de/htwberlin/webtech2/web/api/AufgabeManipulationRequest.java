@@ -12,6 +12,8 @@ public class AufgabeManipulationRequest {
         this.completed = completed;
     }
 
+    public AufgabeManipulationRequest(){}
+
     public String getTask() {
         return task;
     }
